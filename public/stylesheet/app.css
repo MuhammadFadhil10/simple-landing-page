@@ -196,7 +196,7 @@ section {
 #section-3 {
     display: flex;
     justify-content: center;
-    background-image:url(/assets/section/section-3-background.png);
+    background-image:url(/public/assets/section/section-3-background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -346,7 +346,7 @@ footer {
     justify-content: space-evenly;
     width: 100vw;
     height: 350px;
-    background-image: url(/assets/footer/footer.png);
+    background-image: url(/public/assets/footer/footer.png);
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
