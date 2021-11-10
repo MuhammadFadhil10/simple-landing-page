@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#191919"
+     bordercolor="#b50101"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:snap-path-clip="true"
+     inkscape:snap-path-mask="true"
+     inkscape:zoom="2.7236706"
+     inkscape:cx="650.40906"
+     inkscape:cy="478.58211"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2"
+     showborder="false"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-paths="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14911">
+      <stop
+         style="stop-color:#332c8b;stop-opacity:1;"
+         offset="0"
+         id="stop14907" />
+      <stop
+         style="stop-color:#a29de0;stop-opacity:1"
+         offset="1"
+         id="stop14909" />
+    </linearGradient>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_2"
+       id="pattern4963"
+       patternTransform="matrix(10,0,0,10,-455.36801,-277.13431)" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="3"
+       height="1"
+       patternTransform="translate(0,0) scale(10,10)"
+       id="Strips1_2"
+       inkscape:stockid="Stripes 1:2">
+      <rect
+         style="fill:black;stroke:none"
+         x="0"
+         y="-0.5"
+         width="1"
+         height="2"
+         id="rect3730" />
+    </pattern>
+    <symbol
+       id="Connector">
+      <title
+         id="title1841">Connector</title>
+      <desc
+         id="desc1843">Exit to or entry from another part of chart.</desc>
+      <circle
+         cx="75"
+         cy="75"
+         r="20"
+         style="stroke-width:2"
+         id="circle1845" />
+    </symbol>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="516.63202"
+       height="217.17339"
+       patternTransform="translate(455.36801,277.13431)"
+       id="pattern4960">
+      <rect
+         style="opacity:1;mix-blend-mode:normal;fill:url(#pattern4963);fill-opacity:1"
+         id="rect533"
+         width="516.63202"
+         height="217.17339"
+         x="0"
+         y="0" />
+    </pattern>
+    <inkscape:path-effect
+       effect="fill_between_many"
+       method="originald"
+       linkedpaths="#path5115,0,1|#rect4990,0,1"
+       id="path-effect5663"
+       is_visible="true"
+       lpeversion="0"
+       join="true"
+       close="true"
+       autoreverse="true"
+       applied="false" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14911"
+       id="linearGradient14913"
+       x1="665.90875"
+       y1="460.55466"
+       x2="705.35712"
+       y2="529.61237"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="canvas"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(-187.98161,-199.73047)"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff;stroke-width:1.52635"
+       id="rect114"
+       width="1920"
+       height="1080"
+       x="187.98161"
+       y="199.73047" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="layer 1"
+     style="display:inline">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none"
+       width="516.63202"
+       height="217.17339"
+       x="455.36801"
+       y="277.13431"
+       id="rect4965" />
+    <path
+       inkscape:original-d="M 0,0"
+       inkscape:path-effect="#path-effect5663"
+       d="M 0,0"
+       id="path5665"
+       style="opacity:1;fill:#00ff00" />
+    <rect
+       style="fill:url(#linearGradient14913);fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dashoffset:12.6244;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect857"
+       width="47.775257"
+       height="47.775257"
+       x="665.90875"
+       y="446.53241"
+       inkscape:export-filename="C:\Learning\Latihan JS\4.project simple\Landing-page\public\assets\logo\mylogo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'MS Gothic';-inkscape-font-specification:'MS Gothic';fill:#adaaee;fill-opacity:1;stroke:none;stroke-opacity:1"
+       x="669.8681"
+       y="486.65945"
+       id="text12805"
+       inkscape:export-filename="C:\Learning\Latihan JS\4.project simple\Landing-page\public\assets\logo\mylogo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan12803"
+         x="669.8681"
+         y="486.65945">MC</tspan></text>
+  </g>
+</svg>
