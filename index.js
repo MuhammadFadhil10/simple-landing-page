@@ -10,9 +10,19 @@ const navigation = document.querySelector('.navigation');
 mobileNavButton.addEventListener('click', openNavMobile);
 // event binding untuk close navigation 
 closeNavButton.addEventListener('click', closeNavMobile)
-
+document.addEventListener('scroll', function() {
+    const navContainer = document.querySelector('.first-banner-section');
+    navContainer.style.backgroundColor = 'white';
+    navContainer.style.boxShadow = '10px 10px 100px #00000054';
+    if(scrollY <= 100) {
+        navContainer.style.backgroundColor = 'none';
+        navContainer.style.boxShadow = 'none';
+    }
+    // console.log(scrollY);
+    // scrollY = 2000
+})
 function closeNavMobile() {
-    console.log('haha');
+    // console.log(navigation.offsetTop);
     this.style.display = 'none';
     mobileNavButton.style.display = 'flex';
     // bg nav dan nav hilang
@@ -21,6 +31,7 @@ function closeNavMobile() {
 }
 
 function openNavMobile() {
+    // console.log(navigation.offsetTop);
     this.style.display = 'none';
     closeNavButton.style.display = 'block';
     // bg nav dan nav muncul
