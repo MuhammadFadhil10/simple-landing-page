@@ -106,11 +106,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-.stripe-style{
-    background-color: #332c8b;
-    width: 40px;
-    height: 5px;
-}
+
 .arrow-dropdown {
     font-weight: bolder;
     margin-left: 5px;
@@ -397,6 +393,12 @@ footer h5 {
         align-self: flex-start;
         margin-top: 5px;
     
+    }
+    .stripe-style{
+        background-color: #332c8b;
+        width: 40px;
+        height: 5px;
+        transition: 300ms;
     }
     .second-banner-section {
         /* background-color: red; */
