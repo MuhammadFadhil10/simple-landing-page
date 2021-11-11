@@ -12,7 +12,7 @@ closeNavButton.addEventListener('click', closeNavMobile)
 function closeNavMobile() {
     console.log('haha');
     this.style.display = 'none';
-    mobileNavButton.style.display = 'block';
+    mobileNavButton.style.display = 'flex';
 }
 
 function openNavMobile() {
