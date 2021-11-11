@@ -10,8 +10,6 @@ function openNavMobile() {
     this.firstElementChild.nextElementSibling.style.transform = 'rotate(-50deg)';
     this.firstElementChild.nextElementSibling.style.marginTop = '1.2rem';
     this.firstElementChild.nextElementSibling.style.height = '30px';
-    thirdStripe.style.marginTop = '1px';
-    thirdStripe.style.marginBottom = '3px';
     thirdStripe.style.transform = 'rotate(50deg)';
     thirdStripe.style.height = '30px';
     // this.firstElementChild.style.display = 'none';
