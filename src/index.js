@@ -1,3 +1,4 @@
+alert('haha')
 // memunculkan navigasi di mobile ketika navigasi diklik
 const mobileNavButton = document.querySelector('.nav-mobile');
 mobileNavButton.addEventListener('click', openNavMobile);
