@@ -9,8 +9,8 @@ function openNavMobile() {
     this.firstElementChild.style.opacity = '0';
     this.firstElementChild.nextElementSibling.style.transform = 'rotate(-50deg)';
     this.firstElementChild.nextElementSibling.style.marginTop = '1.2rem';
-    this.firstElementChild.nextElementSibling.style.height = '30px';
+    this.firstElementChild.nextElementSibling.style.height = '60px';
     thirdStripe.style.transform = 'rotate(50deg)';
-    thirdStripe.style.height = '30px';
+    thirdStripe.style.height = '60px';
     // this.firstElementChild.style.display = 'none';
 }
