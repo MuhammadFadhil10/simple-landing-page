@@ -97,6 +97,9 @@ body {
     color: #463fa8;
     letter-spacing: 2px;
 }
+.navigation a:focus {
+    border-bottom: 2px solid #332c8b;
+}
 #category-button:hover{
     color: #463fa8;
     letter-spacing: 2px;
