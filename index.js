@@ -15,7 +15,7 @@ document.addEventListener('scroll', function() {
     navContainer.style.backgroundColor = 'white';
     navContainer.style.boxShadow = '10px 10px 100px #00000054';
     if(scrollY <= 100) {
-        navContainer.style.backgroundColor = 'none';
+        navContainer.style.background = 'none';
         navContainer.style.boxShadow = 'none';
     }
     // console.log(scrollY);
