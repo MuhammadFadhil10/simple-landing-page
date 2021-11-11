@@ -466,7 +466,14 @@ footer h5 {
         display: flex;
         cursor: pointer;
     }
-   
+    .close-nav-mobile {
+        display: none;
+        color: #332c8b;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.7rem;
+        position: absolute;
+        right: 0;
+    }
     #section-1 img, #section-2 img {
         transform: scale(.7);
         align-self: center;
