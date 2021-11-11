@@ -428,7 +428,7 @@ footer h5 {
         text-align: center;
     }
     .nav-mobile-background {
-        /* display: none; */
+        display: none;
         background-color: #332c8b;
         position: absolute;
         width: 100vw;
@@ -437,7 +437,7 @@ footer h5 {
         z-index: 1;
     }
     .navigation {
-        display: flex;
+        display: none;
         position: absolute;
         /* height: 200vh;
         width: 100vw;
