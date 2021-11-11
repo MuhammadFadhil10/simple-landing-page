@@ -6,10 +6,11 @@ const secondStripe = document.querySelector('.stripe-2');
 const thirdStripe = document.querySelector('.stripe-3');
 const bgNavMobile = document.querySelector('.nav-mobile-background');
 const navigation = document.querySelector('.navigation');
+const navLink = document.querySelectorAll('.nav-list');
 
 mobileNavButton.addEventListener('click', openNavMobile);
-// event binding untuk close navigation 
 closeNavButton.addEventListener('click', closeNavMobile)
+// event binding untuk close navigation 
 document.addEventListener('scroll', function() {
     const navContainer = document.querySelector('.first-banner-section');
     navContainer.style.backgroundColor = 'white';
@@ -21,6 +22,24 @@ document.addEventListener('scroll', function() {
     // console.log(scrollY);
     // scrollY = 2000
 })
+
+navLink.forEach((el, i) => {
+    el.addEventListener('click', function(e) {
+        e.preventDefault();
+        // e.target.style.borderBottom = '2px solid #332c8b';
+        // if(el !== e.target) {
+
+        //     el.style.borderBottom = '2px solid white';
+        // }
+        
+    })
+    
+})
+
+
+
+
+
 function closeNavMobile() {
     // console.log(navigation.offsetTop);
     this.style.display = 'none';
