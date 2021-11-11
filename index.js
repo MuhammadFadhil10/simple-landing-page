@@ -26,6 +26,14 @@ document.addEventListener('scroll', function() {
 navLink.forEach((el, i) => {
     el.addEventListener('click', function(e) {
         e.preventDefault();
+        closeNavButton.style.display = 'none';
+        mobileNavButton.style.display = 'flex';
+        // bg nav dan nav hilang
+        bgNavMobile.style.display = 'none';
+        if (innerWidth <= 500) {
+            navigation.style.display = 'none';
+        }
+        console.log(innerWidth);
         // e.target.style.borderBottom = '2px solid #332c8b';
         // if(el !== e.target) {
 
@@ -42,7 +50,7 @@ navLink.forEach((el, i) => {
 
 function closeNavMobile() {
     // console.log(navigation.offsetTop);
-    this.style.display = 'none';
+    closeNavButton.style.display = 'none';
     mobileNavButton.style.display = 'flex';
     // bg nav dan nav hilang
     bgNavMobile.style.display = 'none';
