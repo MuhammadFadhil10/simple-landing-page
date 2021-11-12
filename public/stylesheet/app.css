@@ -290,6 +290,7 @@ section {
     height: 300px;
     border: 2px solid #120c55;
     margin-bottom: 150px;
+    padding: 10px;
 }
 .timer {
     display: flex;
