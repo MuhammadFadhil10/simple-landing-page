@@ -65,3 +65,42 @@ function openNavMobile() {
     bgNavMobile.style.display = 'block';
     navigation.style.display = 'flex';
 }
+
+// function untuk hitung mundur disscount
+function discountTimer() {
+    
+    let timing = setInterval(() => {
+        // perhitungan waktu
+        const today = new Date().getTime();
+        const deadLine = new Date('11-14-2021-19:11:00').getTime();
+        const marginTime = deadLine - today;
+        const marginDay = Math.floor(marginTime / (1000 * 60 * 60 * 24));
+        const marginHours = Math.floor(marginTime % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
+        const marginMinute = Math.floor(marginTime % (1000 * 60 * 60 ) / (1000 * 60));
+        const marginSeconds = Math.floor(marginTime % (1000 * 60 ) / (1000));
+        console.log(marginHours)
+        // memanipulasi halaman diskon html 
+        const day = document.querySelector('.timer-day');
+        const hours = document.querySelector('.timer-hour');
+        const minute = document.querySelector('.timer-minute');
+        const seconds = document.querySelector('.timer-second');
+        day.innerText = marginDay;
+        hours.innerText = marginHours;
+        minute.innerText = marginMinute;
+        seconds.innerText = marginSeconds;
+        if(
+            day.textContent <= '0' &&
+            hours.textContent <= '0' &&
+            minute.textContent <= '0' &&
+            seconds.textContent <= '0'
+            
+        ) {
+            clearInterval(timing);
+            day.innerText = 0;
+            hours.innerText = 0;
+            minute.innerText = 0;
+            seconds.innerText = 0;
+        }
+    }, 1000);
+}
+discountTimer();
