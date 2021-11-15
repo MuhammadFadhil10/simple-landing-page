@@ -72,7 +72,7 @@ function discountTimer() {
     let timing = setInterval(() => {
         // perhitungan waktu
         const today = new Date().getTime();
-        const deadLine = new Date('11-14-2021-19:11:00').getTime();
+        const deadLine = new Date('11-18-2021-23:11:00').getTime();
         const marginTime = deadLine - today;
         const marginDay = Math.floor(marginTime / (1000 * 60 * 60 * 24));
         const marginHours = Math.floor(marginTime % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
